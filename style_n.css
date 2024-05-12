@@ -1,0 +1,49 @@
+.application .field {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+.application .field div.cell {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(237, 216, 162, 0.3);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-family: sans-serif;
+}
+.application .field div.cell:hover {
+  background-color: rgba(237, 216, 162, 0.5);
+  cursor: pointer;
+}
+
+.wrapper-popup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.wrapper-popup > div {
+  background-color: white;
+  width: 400px;
+  border-radius: 5px;
+  padding: 8px;
+}
+.wrapper-popup > div .button {
+  display: inline-block;
+  cursor: pointer;
+  padding: 4px;
+  background-color: rgb(124, 218, 106);
+  border-radius: 5px;
+}
+.wrapper-popup > div .button:not(:last-child) {
+  margin-right: 8px;
+}/*# sourceMappingURL=style_n.css.map */
